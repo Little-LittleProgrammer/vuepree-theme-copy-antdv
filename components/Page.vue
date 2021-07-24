@@ -3,7 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-antdocs-content" />
-    <div class="right-container">
+    <div class="right-container" v-if="!!anchorList">
       <a-anchor :target-offset="targetOffset">
         <a-anchor-link v-for="(item, index) in anchorList" :key="index" :href="'#'+item.slug" :title="item.title" />
       </a-anchor>
@@ -79,6 +79,9 @@ export default {
 @media (max-width: @MQMobile) {
   .page {
     margin-top: -@navbarHeight;
+  }
+  .right-container {
+    display: none;
   }
 }
 .right-container {
