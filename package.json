@@ -1,7 +1,7 @@
 {
   "name": "vuepress-theme-copy-antdocs",
   "title": "AntDocs of VuePress",
-  "version": "1.8.1",
+  "version": "1.8.6",
   "description": "An Ant Design style theme for VuePress. Inherit from Feng L.H.",
   "main": "index.js",
   "repository": {
