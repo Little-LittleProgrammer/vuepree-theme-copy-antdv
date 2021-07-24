@@ -1,0 +1,25 @@
+{
+  "name": "vuepress-theme-copy-antdocs",
+  "title": "AntDocs of VuePress",
+  "version": "1.8.1",
+  "description": "An Ant Design style theme for VuePress. Inherit from Feng L.H.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zpfz/vuepress-theme-antdocs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zpfz/vuepress-theme-antdocs/issues"
+  },
+  "homepage": "https://github.com/zpfz/vuepress-theme-antdocs",
+  "author": "Evan Wu",
+  "license": "ISC",
+  "dependencies": {
+    "ant-design-vue": "^1.7.4",
+    "docsearch.js": "^2.5.2",
+    "lodash": "^4.17.15",
+    "vuex": "^3.1.3",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0"
+  }
+}
